@@ -61,32 +61,7 @@ To enhance monitoring and tracing capabilities, **OpenTelemetry** will be integr
 
 ## Folder Structure
 
-```plaintext
-/Project
-│── ApiGateway/            # API Gateway (YARP)
-│──  OrleansCluster        # Orleans .NET actors and state management
-│── Application/           # CQRS commands, queries, and use cases
-│── Domain/                # Entities, Aggregates, Domain Services, and Events
-│── Infrastructure/        # Data Persistence, RabbitMQ, Qdrant, MongoDB, and Orleans
-│── Workers/
-│   │── CSharpWorker/      # Worker service in C#
-│   │── PythonWorker/      # Worker service in Python
-│── SemanticKernel/        # AI processing and automation
-│── RabbitMQ/              # Streaming configuration
-│── Qdrant/                # Vector storage for AI indexing and retrieval
-│── MongoDB/               # NoSQL database for grain state and metadata
-│── Frontend/
-│   │── ReactApp/          # React.js UI for grain visualization and management
-│   │── Components/        # UI components
-│   │── Services/          # API communication and state management
-│   │── Pages/             # Application views and routing
-│   │── Assets/            # Static assets (images, styles, etc.)
-│── Database/              # Database schema & migrations
-│── Deploy/                # Docker & Kubernetes configurations
-│── Scripts/               # Utility scripts for automation and setup
-│── docker-compose.yml     # Orchestration for local testing
-│── README.md              # Documentation
-```
+
 
 ## Setup & Installation
 
