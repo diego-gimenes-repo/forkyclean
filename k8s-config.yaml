@@ -1,0 +1,27 @@
+# deploy/k8s-config.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: forky-ai-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: forky-ai
+  template:
+    metadata:
+      labels:
+        app: forky-ai
+    spec:
+      containers:
+      - name: api-gateway
+        image: ${DOCKER_REGISTRY}/forky-ai/api-gateway:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Production
+        - name: ReverseProxy__Routes__Default__ClusterId
+          value: main
+        - name: ReverseProxy__Routes__Default__Patterns
+          value: http://*/*

@@ -1,0 +1,55 @@
+version: "3.9"
+services:
+  api-gateway:
+    build: ./src/ApiGateway
+    container_name: api-gateway
+    ports:
+      - "5000:80"  # Expose port 80 from inside the container to 5000 outside
+    depends_on:
+      - rabbitmq
+      - orleans-cluster
+    environment:
+      # Set environment to Development (optional)
+      - ASPNETCORE_ENVIRONMENT=Development
+
+      # YARP: route name = "default"
+      - ReverseProxy__Routes__default__ClusterId=main
+      - ReverseProxy__Routes__default__Match__Path=/{**catch-all}
+
+      # YARP: cluster name = "main"
+      - ReverseProxy__Clusters__main__Destinations__destination1__Address=http://orleans-cluster:8080
+
+  orleans-cluster:
+    build: .
+    container_name: orleans-cluster
+    # If you want to run your Orleans Silo from an SDK image:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    environment:
+      - ORLEANS_SERVICE_ID=forky_ai
+      - ORLEANS_CLUSTER_ID=forky_ai_cluster
+    volumes:
+      - ./OrleansCluster:/app
+    command: dotnet run --project OrleansCluster.csproj
+    ports:
+      - "11111:11111" # Silo-to-silo
+      - "30000:30000" # Client (grain calls) - if you have external Orleans clients
+      - "8080:8080"   # Orleans Dashboard or HTTP port (if you configured it)
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=password
+
+  qdrant:
+    image: qdrant/qdrant
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+    environment:
+      - QDRANT_NUMBER_OF_REPLICAS=1
+      - QDRANT_API_PORT=6333

@@ -1,0 +1,4 @@
+C:\projects\ForkyAI\src\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ForkyAI\src\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\projects\ForkyAI\src\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\projects\ForkyAI\src\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache

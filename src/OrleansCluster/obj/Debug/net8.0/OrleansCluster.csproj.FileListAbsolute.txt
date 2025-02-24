@@ -1,0 +1,9 @@
+C:\projects\ForkyAI\src\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ForkyAI\src\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.AssemblyInfoInputs.cache
+C:\projects\ForkyAI\src\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.AssemblyInfo.cs
+C:\projects\ForkyAI\src\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.csproj.CoreCompileInputs.cache
+C:\Users\diego\Source\Repos\forkyclean\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Source\Repos\forkyclean\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.AssemblyInfoInputs.cache
+C:\Users\diego\Source\Repos\forkyclean\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.AssemblyInfo.cs
+C:\Users\diego\Source\Repos\forkyclean\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.csproj.CoreCompileInputs.cache
+C:\Users\diego\Source\Repos\forkyclean\src\OrleansCluster\obj\Debug\net8.0\OrleansCluster.sourcelink.json
