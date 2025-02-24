@@ -1,0 +1,67 @@
+# General
+.DS_Store
+.vs
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+
+# Python dependencies
+__pycache__/
+*.py[cod]
+venv/
+
+# .NET dependencies
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.app
+*.cache
+*.so
+
+# Environment Variables
+.env
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# Frontend build artifacts
+/build
+/dist
+
+# Kubernetes and Docker
+.kube/
+docker-compose.override.yml
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.ide
+
+# Coverage
+coverage/
+*.lcov
+
+# Orleans Cluster
+OrleansHost_LocalSilo.xml
+
+# OpenTelemetry Traces
+otel-traces.log
+
+# Misc
+*.swp
+*.bak
