@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/+o3fSl+Y8=",
+  "dgSpecHash": "B70QMUYxjWI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\Source\\Repos\\forkyclean\\ApiGateway\\ApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\diego\\source\\repos\\forkyclean\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\azure.core\\1.40.0\\azure.core.1.40.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\azure.monitor.opentelemetry.aspnetcore\\1.2.0\\azure.monitor.opentelemetry.aspnetcore.1.2.0.nupkg.sha512",

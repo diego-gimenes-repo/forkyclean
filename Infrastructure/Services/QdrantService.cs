@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
-using ForkyAI.Infrastructure.RabbitMq;
+using ForkyAI.Infrastructure.Interfaces;
+
+using Qdrant.Client;
 using Qdrant.Client.Grpc;
 
 namespace ForkyAI.Infrastructure.Services
 {
     public class QdrantService : IQdrantService
     {
-        private readonly IQdrantClient _client;
+        private readonly QdrantClient _client;
 
         public QdrantService(string host)
         {
@@ -24,7 +27,8 @@ namespace ForkyAI.Infrastructure.Services
             new PointStruct
             {
                 Id = (uint)item.GetHashCode(),
-                Vector = GenerateVector(item),
+                Vectors = GenerateVector(item),
+                
                 Payload = JsonSerializer.Serialize(item)
             }
         };

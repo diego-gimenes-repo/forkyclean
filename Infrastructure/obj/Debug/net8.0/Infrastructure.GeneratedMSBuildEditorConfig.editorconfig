@@ -1,5 +1,5 @@
 is_global = true
-build_property.Orleans_DesignTimeBuild = 
+build_property.Orleans_DesignTimeBuild = true
 build_property.Orleans_AttachDebugger = 
 build_property.Orleans_GenerateFieldIds = 
 build_property.Orleans_ImmutableAttributes = 
@@ -17,7 +17,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ForkyAI.Infrastructure
-build_property.ProjectDir = C:\Users\diego\Source\Repos\forkyclean\Infrastructure\
+build_property.ProjectDir = C:\Users\diego\source\repos\forkyclean\Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0

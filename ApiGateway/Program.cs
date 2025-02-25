@@ -3,7 +3,7 @@ using Orleans;
 using Orleans.Hosting;
 
 
-namespace ApiGateway
+namespace ForkAI.ApiGateway
 {
     public class Program
     {

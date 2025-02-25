@@ -8,12 +8,16 @@
 
   <ItemGroup>
 
-	  <PackageReference Include="MediatR" Version="12.4.1" />
+	  <PackageReference Include="MediatR" Version="12.2.0" />
 
 	  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.Orleans.Client" Version="9.1.2" />
     <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="9.1.2" />
     <PackageReference Include="Microsoft.Orleans.Hosting.Kubernetes" Version="9.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

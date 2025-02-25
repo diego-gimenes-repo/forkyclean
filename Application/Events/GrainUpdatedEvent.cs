@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.src.Domain.Events
+namespace ForkyAI.Application.Events
 {
-    public class GrainInitializedEvent : IDomainEvent
+    public class GrainUpdatedEvent : IDomainEvent
     {
         public Guid GrainId { get; }
         public string GrainType { get; }
         public DateTime Timestamp { get; }
 
-        public GrainInitializedEvent(Guid grainId, string grainType)
+        public GrainUpdatedEvent(Guid grainId, string grainType)
         {
             GrainId = grainId;
             GrainType = grainType;

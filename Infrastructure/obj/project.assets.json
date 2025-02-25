@@ -1139,11 +1139,11 @@
           "Microsoft.Orleans.Sdk": "8.2.0"
         }
       },
-      "Microsoft.SemanticKernel/1.38.0": {
+      "Microsoft.SemanticKernel/1.39.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.SemanticKernel.Connectors.AzureOpenAI": "1.38.0",
-          "Microsoft.SemanticKernel.Core": "1.38.0"
+          "Microsoft.SemanticKernel.Connectors.AzureOpenAI": "1.39.0",
+          "Microsoft.SemanticKernel.Core": "1.39.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.SemanticKernel.dll": {
@@ -1156,7 +1156,7 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Abstractions/1.38.0": {
+      "Microsoft.SemanticKernel.Abstractions/1.39.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
@@ -1179,12 +1179,12 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Connectors.AzureOpenAI/1.38.0": {
+      "Microsoft.SemanticKernel.Connectors.AzureOpenAI/1.39.0": {
         "type": "package",
         "dependencies": {
           "Azure.AI.OpenAI": "[2.2.0-beta.1]",
-          "Microsoft.SemanticKernel.Connectors.OpenAI": "1.38.0",
-          "Microsoft.SemanticKernel.Core": "1.38.0"
+          "Microsoft.SemanticKernel.Connectors.OpenAI": "1.39.0",
+          "Microsoft.SemanticKernel.Core": "1.39.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.SemanticKernel.Connectors.AzureOpenAI.dll": {
@@ -1197,10 +1197,10 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Connectors.OpenAI/1.38.0": {
+      "Microsoft.SemanticKernel.Connectors.OpenAI/1.39.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.SemanticKernel.Core": "1.38.0",
+          "Microsoft.SemanticKernel.Core": "1.39.0",
           "OpenAI": "[2.2.0-beta.1]"
         },
         "compile": {
@@ -1214,11 +1214,11 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Core/1.38.0": {
+      "Microsoft.SemanticKernel.Core/1.39.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
-          "Microsoft.SemanticKernel.Abstractions": "1.38.0",
+          "Microsoft.SemanticKernel.Abstractions": "1.39.0",
           "System.Numerics.Tensors": "8.0.0",
           "System.Text.Json": "8.0.5"
         },
@@ -3719,10 +3719,10 @@
         "microsoft.orleans.server.nuspec"
       ]
     },
-    "Microsoft.SemanticKernel/1.38.0": {
-      "sha512": "c1j6JHGqu8iAmQueD0q7shDYRLIBKuhDo5K0755BIsOFA8gRhDH3twTJZ2shFKhkZWyvD1Gd53QUnSSFyT7vgA==",
+    "Microsoft.SemanticKernel/1.39.0": {
+      "sha512": "lYD0bYASFn1EYAd+8PJIUnhNsLA2bYLQp/fGdlxEprV90POmCHtqoHQGKzZkQD+M3rDFpYytiXXRPsL5gwuOBA==",
       "type": "package",
-      "path": "microsoft.semantickernel/1.38.0",
+      "path": "microsoft.semantickernel/1.39.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3732,14 +3732,14 @@
         "lib/net8.0/Microsoft.SemanticKernel.xml",
         "lib/netstandard2.0/Microsoft.SemanticKernel.dll",
         "lib/netstandard2.0/Microsoft.SemanticKernel.xml",
-        "microsoft.semantickernel.1.38.0.nupkg.sha512",
+        "microsoft.semantickernel.1.39.0.nupkg.sha512",
         "microsoft.semantickernel.nuspec"
       ]
     },
-    "Microsoft.SemanticKernel.Abstractions/1.38.0": {
-      "sha512": "z2Cl68S5gfotMQnE/8BAkAsgUsE5bVziXaxo+zZesn2GWMoZUKNI96a817/Uhl93A6mW4kIer7z/In3eT+xtbg==",
+    "Microsoft.SemanticKernel.Abstractions/1.39.0": {
+      "sha512": "h0rzex7BQG9ruhYpqV3KqhGTnx6NlC+PAP0ECdnt72MM7lMZG0RND5M9oMIGTTFGGJtfjGaR+ZLUG4sQOS7ySw==",
       "type": "package",
-      "path": "microsoft.semantickernel.abstractions/1.38.0",
+      "path": "microsoft.semantickernel.abstractions/1.39.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3749,14 +3749,14 @@
         "lib/net8.0/Microsoft.SemanticKernel.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Abstractions.xml",
-        "microsoft.semantickernel.abstractions.1.38.0.nupkg.sha512",
+        "microsoft.semantickernel.abstractions.1.39.0.nupkg.sha512",
         "microsoft.semantickernel.abstractions.nuspec"
       ]
     },
-    "Microsoft.SemanticKernel.Connectors.AzureOpenAI/1.38.0": {
-      "sha512": "0NDm7qOya5PWnaTDU0QHF/DwHeGk7OQaezW0GKTRS2Vbg3M2e9yWMBcQD/LAMHkZmCEPIrBLMzK1rc1LtctCOw==",
+    "Microsoft.SemanticKernel.Connectors.AzureOpenAI/1.39.0": {
+      "sha512": "Jbh4kLB0xDugPLXkArWcl67/WGSoJbVH3n+kfX40TGQtLdvEKgWMMv9aiSQxkFG0FqNe5wWdo7QSz5ARlBIB8Q==",
       "type": "package",
-      "path": "microsoft.semantickernel.connectors.azureopenai/1.38.0",
+      "path": "microsoft.semantickernel.connectors.azureopenai/1.39.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3766,14 +3766,14 @@
         "lib/net8.0/Microsoft.SemanticKernel.Connectors.AzureOpenAI.xml",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Connectors.AzureOpenAI.dll",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Connectors.AzureOpenAI.xml",
-        "microsoft.semantickernel.connectors.azureopenai.1.38.0.nupkg.sha512",
+        "microsoft.semantickernel.connectors.azureopenai.1.39.0.nupkg.sha512",
         "microsoft.semantickernel.connectors.azureopenai.nuspec"
       ]
     },
-    "Microsoft.SemanticKernel.Connectors.OpenAI/1.38.0": {
-      "sha512": "j77ehuq4xDr6Prr9/VfmTAV0OinMinKgH2h3AL6I6evOe5U68ygVHL4Y7qygReMcO2sv8qXyu5/b6qOOY5lUmg==",
+    "Microsoft.SemanticKernel.Connectors.OpenAI/1.39.0": {
+      "sha512": "0izOHSnCZ7x6BBobxRS8YSwFA0pN1yKP05/mxzcUnviE4J8vYi2stjoOSqS3cZp9Zrn8mY/BmTGi5JIDv3v5LQ==",
       "type": "package",
-      "path": "microsoft.semantickernel.connectors.openai/1.38.0",
+      "path": "microsoft.semantickernel.connectors.openai/1.39.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3783,14 +3783,14 @@
         "lib/net8.0/Microsoft.SemanticKernel.Connectors.OpenAI.xml",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Connectors.OpenAI.dll",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Connectors.OpenAI.xml",
-        "microsoft.semantickernel.connectors.openai.1.38.0.nupkg.sha512",
+        "microsoft.semantickernel.connectors.openai.1.39.0.nupkg.sha512",
         "microsoft.semantickernel.connectors.openai.nuspec"
       ]
     },
-    "Microsoft.SemanticKernel.Core/1.38.0": {
-      "sha512": "HKeWnU89+27dMJLa63oVb/Y/ihygyV1apNqm+N3Y+8S5W0s2rkVodMyFnFF7Z66nfi03WKDVekMKXSXNtuX5+g==",
+    "Microsoft.SemanticKernel.Core/1.39.0": {
+      "sha512": "v3ekmV5TiBmQlukQsqcWPLqZwADgdCgBbDJKlsNH2ERn/XZXCVZMIT1kQghu+7EzkJvxpL83r1DtuaDOVdHU3g==",
       "type": "package",
-      "path": "microsoft.semantickernel.core/1.38.0",
+      "path": "microsoft.semantickernel.core/1.39.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3800,7 +3800,7 @@
         "lib/net8.0/Microsoft.SemanticKernel.Core.xml",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Core.dll",
         "lib/netstandard2.0/Microsoft.SemanticKernel.Core.xml",
-        "microsoft.semantickernel.core.1.38.0.nupkg.sha512",
+        "microsoft.semantickernel.core.1.39.0.nupkg.sha512",
         "microsoft.semantickernel.core.nuspec"
       ]
     },
@@ -4933,11 +4933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\Source\\Repos\\forkyclean\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\source\\repos\\forkyclean\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\diego\\Source\\Repos\\forkyclean\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\diego\\source\\repos\\forkyclean\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\Source\\Repos\\forkyclean\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\diego\\source\\repos\\forkyclean\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4958,8 +4958,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\diego\\Source\\Repos\\forkyclean\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\diego\\Source\\Repos\\forkyclean\\Domain\\Domain.csproj"
+            "C:\\Users\\diego\\source\\repos\\forkyclean\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\diego\\source\\repos\\forkyclean\\Domain\\Domain.csproj"
             }
           }
         }

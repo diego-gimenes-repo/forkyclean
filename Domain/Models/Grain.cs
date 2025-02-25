@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Immutable;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Immutable;
 using Orleans;
 
-namespace Domain.src.Domain.Models
+namespace Domain.Models
 {
     public abstract class Grain : IGrainWithIntegerKey
     {
